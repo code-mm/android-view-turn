@@ -1,0 +1,14 @@
+import java.text.SimpleDateFormat
+apply plugin: "maven-publish"
+afterEvaluate {
+    publishing {
+        publications {
+            release(MavenPublication) {
+                from components.release
+                groupId = "com.ms"
+                artifactId = "android-view-turn"
+                version = "${new SimpleDateFormat("yyyy.MM.dd.HH.mm").format(new Date())}"
+            }
+        }
+    }
+}

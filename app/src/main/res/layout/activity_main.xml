@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    tools:context=".MainActivity">
+
+
+    <com.ms.module.view.turn.TurnView
+        android:id="@+id/fastChargeView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:arcPaintStrokeSize="10dp"
+        app:duration="1000"
+        app:exteralArcRadius="90dp"
+        app:pointRadius="30dp" />
+
+
+</FrameLayout>

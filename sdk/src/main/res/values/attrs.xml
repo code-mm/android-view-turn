@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FastChargeView">
+        <attr name="exteralArcRadius" format="dimension" />
+        <attr name="arcPaintStrokeSize" format="dimension" />
+        <attr name="pointRadius" format="dimension" />
+        <attr name="duration" format="integer" />
+        <attr name="beforeColor" format="color" />
+        <attr name="afterColor" format="color" />
+        <attr name="headPointColor" format="color" />
+
+    </declare-styleable>
+
+</resources>
